@@ -1,0 +1,169 @@
+
+html {
+    border: 1px grey solid;
+}
+
+.body-container {
+    margin: 0 auto;
+    width: 100%;
+    clear: both;
+    background-image: url("../Images/pink_rice.png");
+}
+.head-1 {
+    /* padding-top: .5em; */
+    font-size: 36px;
+    height: 2em;
+    margin: 10px;
+
+}
+.black-bar {
+    background-color: rgba(0, 2, 131, 0.219);
+    /* background-color: rgba(0, 0, 0, 0.219); */
+    margin: 0;
+}
+#bucket-list{
+    height: 100%;
+    overflow-y: auto;
+
+}
+.choose-state {
+    font-size: 18px;
+
+
+}
+.statelist {
+    font-size: 12px;
+
+}
+
+.pure-u-2-3 {
+    background-image: url("../Images/image.webp");
+    background-size: 1000px;
+    /* opacity: 0.7; */
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    
+    
+   /* background-image: url("../images/image7.jpg");
+    background-position-y: -10px; */
+    overflow-y: scroll;
+}
+.pure-u-1-3.alt{
+background-image: url("../Images/Image4.jpg");
+
+}
+.pure-u-1-3 {
+    background-size: 225%;
+    background-image: url("../Images/image2.jpg");
+    color: white;
+    filter: alpha(opacity=50); 
+    /* border: slategrey solid 2px; */
+    border-left: rgb(243, 227, 242) solid 10px;
+
+}
+
+
+.pure-g {
+    /* background-color: lightgrey; */
+    /* border: 1px solid gray; */
+    height: 40em;
+    min-height: 600px;
+
+}
+
+
+.park-results {
+    /* width: 600px; */
+    font-size: 12px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    border: 1px solid white;
+    
+}
+
+.checkbox, .radio {
+    padding-top: 2em;
+    margin: 1em;
+    width: 90%;
+}
+
+.hide {
+    display: none;
+}
+
+.sidebar-radial {
+    color: white;
+}
+
+.pure-form pure-form-stacked {
+    padding-left: 5px;
+    color: white;
+
+}
+
+.footer-container {
+   font-size: 10px;
+    height: auto;
+    background-size: 100%;
+    background-image: url("../Images/ocean.jpeg");
+    background-position-y: -180px;
+    color: white;
+    padding-top: -100px;
+    margin-top: 10px;
+    
+}
+.sign-in-color {
+    color:black;
+    border-bottom: white solid 1px;
+    font-size: 22px;            
+    padding-bottom: .75em;
+}
+
+#email {
+    color: black;
+}
+
+#password {
+    color: black;
+}
+
+.sidebar-image {
+    color: white;
+    margin: 2em;
+}
+
+.footer-image {
+
+    height: auto;
+    background-image: url("../Images/image8.jpg");
+    width: 100%;
+    /* padding-top: 1em;
+    padding-left: 15em; */
+}
+.txt-railway {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.logout {
+    float:right;
+
+}
+.center-block a {
+   margin-bottom: 50px; 
+}
+
+.natspark {
+    cursor: pointer;
+}
+
+p:hover{
+    cursor: default;
+}
+
+#dropdown {
+    color : black;
+    font: 14px;
+}
